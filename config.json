@@ -1,0 +1,232 @@
+{
+  "gnss": {
+    "Time (GPS ns)": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 2208643218,
+      "min_value": 630720013,
+      "max_change": 0.015,
+      "min_change": 0.005
+    },
+    "Latitude (deg)": {
+      "is_check": true,
+      "save_accuracy": 1000000000,
+      "max_value": 46,
+      "min_value": 43,
+      "max_change": 0.000003,
+      "min_change": -0.000003
+    },
+    "Longitude (deg)": {
+      "is_check": true,
+      "save_accuracy": 1000000000,
+      "max_value": 128,
+      "min_value": 124,
+      "max_change": 0.000003,
+      "min_change": -0.000003
+    },
+    "Altitude (m)": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 15970,
+      "min_value": -413,
+      "max_change": 100,
+      "min_change": -100
+    },
+    "East velocity (m/s)": {
+      "is_check": true,
+      "save_accuracy": 1000000000,
+      "max_value": 55,
+      "min_value": -55,
+      "max_change": 20,
+      "min_change": -20
+    },
+    "North velocity (m/s)": {
+      "is_check": true,
+      "save_accuracy": 1000000000,
+      "max_value": 55,
+      "min_value": -55,
+      "max_change": 20,
+      "min_change": -20
+    },
+    "Vertical velocity (m/s)": {
+      "is_check": true,
+      "save_accuracy": 1000000000,
+      "max_value": 55,
+      "min_value": -55,
+      "max_change": 20,
+      "min_change": -20
+    },
+    "Heading (deg)": {
+      "is_check": true,
+      "save_accuracy": 1000000000,
+      "max_value": 361,
+      "min_value": -361,
+      "max_change": 180,
+      "min_change": -180
+    },
+    "yaw velocity(deg/s)": {
+      "is_check": true,
+      "save_accuracy": 1000000000,
+      "max_value": 104.75,
+      "min_value": -100,
+      "max_change": 10,
+      "min_change": -10
+    },
+    "position type": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 51,
+      "min_value": 50,
+      "max_change": 1,
+      "min_change": -1
+    },
+    "ros time": {
+      "is_check": true,
+      "save_accuracy": 1000000000,
+      "max_value": 2524608000,
+      "min_value": 946684800,
+      "max_change": 0.015,
+      "min_change": 0.005
+    }
+  },
+  "gaspedel": {
+    "timestamp": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 2524608000,
+      "min_value": 946684800,
+      "max_change": 0.015,
+      "min_change": 0.005
+    },
+    "gas_pedal(0.0-101.6 Percent)": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 102,
+      "min_value": 0,
+      "max_change": 51,
+      "min_change": -51
+    }
+  },
+  "gear": {
+    "timestamp": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 2524608000,
+      "min_value": 946684800,
+      "max_change": 0.015,
+      "min_change": 0.005
+    },
+    "gear": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 15,
+      "min_value": 0,
+      "max_change": 15,
+      "min_change": -15
+    }
+  },
+  "geschwindigkeit": {
+    "timestamp": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 2524608000,
+      "min_value": 946684800,
+      "max_change": 0.015,
+      "min_change": 0.005
+    },
+    "geschwindigkeit  0-360 km/h 50Hz": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 327.67,
+      "min_value": 0,
+      "max_change": 160,
+      "min_change": -160
+    }
+  },
+  "signal": {
+    "timestamp": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "frame_frequency": 10,
+      "max_value": 2524608000,
+      "min_value": 946684800,
+      "max_change": 0.15,
+      "min_change": 0.05
+    },
+    "signal_right": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 1,
+      "min_value": 0,
+      "max_change": 1,
+      "min_change": -1
+    },
+    "signal_left": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 100,
+      "min_value": 0,
+      "max_change": 1,
+      "min_change": -1
+    }
+  },
+  "steering": {
+    "timestamp": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 2524608000,
+      "min_value": 946684800,
+      "max_change": 0.015,
+      "min_change": 0.005
+    },
+    "steering_angle(+/-800 degree)": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 1433.55625,
+      "min_value": 0,
+      "max_change": 717,
+      "min_change": -717
+    }
+  },
+  "wischerschalter": {
+    "timestamp": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "frame_frequency": 10,
+      "max_value": 2524608000,
+      "min_value": 946684800,
+      "max_change": 0.15,
+      "min_change": 0.05
+    },
+    "wischerschalter wischer vorne laeuft. 10 Hz": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 7,
+      "min_value": 0,
+      "max_change": 7,
+      "min_change": -7
+    }
+  },
+  "brakeStatus": {
+    "timestamp": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 2524608000,
+      "min_value": 946684800,
+      "max_change": 0.015,
+      "min_change": 0.005
+    },
+    "brakeStatus_out": {
+      "is_check": true,
+      "save_accuracy": 1,
+      "max_value": 3,
+      "min_value": 0,
+      "max_change": 1,
+      "min_change": -1
+    }
+  },
+  "plot_map": {
+    "diff_longi": 0.0065,
+    "diff_lati": -0.00235
+  }
+}
